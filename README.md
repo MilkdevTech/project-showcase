@@ -160,9 +160,7 @@ Screenshots from my tools and prototypes, followed by game-development previews.
 
 **Why I built it.** I wanted to develop an industrial dark-fantasy game where machinery, architecture, and the story feel like parts of the same world. A shared visual reference helps keep environments, characters, and interactive props consistent.
 
-**What this preview shows.** An AI-assisted concept-art reference board for Morrow Works. It establishes visual direction; it is not a gameplay capture or a collection of finished production assets.
-
-![OVERTIME Morrow Works concept-art reference board](OVERTIME-concept-art.png)
+**Development.** Built in Unity with C#. The project includes Workshop and Assembly scenes, first-person movement, interactions, combat, and checkpoint systems.
 
 ---
 
