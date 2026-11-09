@@ -1,6 +1,17 @@
-# MilkdevTech Project Showcase
+# Greyson Mullins | Developer Portfolio
 
-I'm Greyson Mullins, a Management Information Systems student at the University of Virginia’s College at Wise. I build tools for jobs I actually run into, from reviewing footage and finding research notes to making community information easier to browse. These projects show how I turn those needs into interfaces, workflows, and working code.
+I’m a Management Information Systems student at the University of Virginia’s College at Wise. I build web interfaces and desktop tools that make information easier to find, understand, and act on.
+
+## Featured projects
+
+| Project | What I built | Where to start |
+| --- | --- | --- |
+| Scott County Historical Society | A React and Next.js website that organizes visitor information, exhibits, events, and research resources | [Read the project overview](#scott-county-historical-society-website) |
+| Data Structures Study Wiki | A browser-based study guide with topic navigation, diagrams, and C++ practice | [Open the live wiki](https://csc2180-study-wiki.jauntypond32.chatgpt.site) |
+| Milkdev Dairy Lab | A JavaScript simulation with adjustable inputs, a viscosity chart, and CSV export | [See the interface](#milkdev-dairy-lab) |
+| Footage Scene Organizer | A review workflow that lets users inspect suggested scene matches before exporting approved filenames | [See the demo workspace](#footage-scene-organizer) |
+
+[GitHub profile](https://github.com/MilkdevTech) · [C++ source samples](https://github.com/MilkdevTech/ds-portfolio)
 
 ## Visual gallery
 
@@ -12,7 +23,7 @@ Screenshots from my tools and prototypes, followed by game-development previews.
 | Dairy Lab · interactive simulation | Footage Organizer · demo workspace |
 | [![Dairy Lab browser simulation](Dairy-Lab-preview.png)](#milkdev-dairy-lab) | [![Footage organizer using example clips](Footage-Organizer-demo.png)](#footage-scene-organizer) |
 
-## Projects at a glance
+## Full project index
 
 | Project | What I needed it for | Stage |
 | --- | --- | --- |
@@ -160,7 +171,9 @@ Screenshots from my tools and prototypes, followed by game-development previews.
 
 **Why I built it.** I wanted to develop an industrial dark-fantasy game where machinery, architecture, and the story feel like parts of the same world. A shared visual reference helps keep environments, characters, and interactive props consistent.
 
-**Development.** Built in Unity with C#. The project includes Workshop and Assembly scenes, first-person movement, interactions, combat, and checkpoint systems.
+**What I built.** A first-person Unity and C# prototype set inside Morrow Works. The slice starts in the Workshop, where the player can talk to Mara and use a crafting bench, then moves into Assembly for wrench combat, salvage, and a Foreman encounter.
+
+**Implementation.** An editor tool builds the Workshop and Assembly scenes. Separate components handle interactions, combat, checkpoints, and world state.
 
 ---
 
