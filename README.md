@@ -2,10 +2,25 @@
 
 I'm Greyson Mullins, a Management Information Systems student at the University of Virginia’s College at Wise. I build tools for jobs I actually run into, from reviewing footage and finding research notes to making community information easier to browse. These projects show how I turn those needs into interfaces, workflows, and working code.
 
+## Visual gallery
+
+Screenshots from my tools and prototypes, followed by game-development previews. Each project below explains the problem I wanted to solve and what the pictured version demonstrates.
+
+| Deepwater · coding workspace | Milk Studio · planning board |
+| --- | --- |
+| [![Deepwater offline coding prototype](Deepwater-preview.png)](#deepwater) | [![Milk Studio interactive planning-board prototype](Milk-Studio-board.png)](#milk-studio) |
+| Dairy Lab · interactive simulation | Footage Organizer · demo workspace |
+| [![Dairy Lab browser simulation](Dairy-Lab-preview.png)](#milkdev-dairy-lab) | [![Footage organizer using example clips](Footage-Organizer-demo.png)](#footage-scene-organizer) |
+
 ## Projects at a glance
 
 | Project | What I needed it for | Stage |
 | --- | --- | --- |
+| [Milk Studio](#milk-studio) | Keep projects, next actions, and AI task planning together | Workspace prototype |
+| [Deepwater](#deepwater) | Make C++ practice easier to follow in one focused workspace | Offline interface prototype |
+| [Milkdev Dairy Lab](#milkdev-dairy-lab) | Explore physical properties through interactive visual experiments | Browser simulation |
+| [Under Commission](#under-commission) | Build a multiplayer world around crafting and consequences | Game in development |
+| [OVERTIME](#overtime) | Develop an industrial dark-fantasy world with a consistent visual identity | Game concept / development |
 | [Scott County Historical Society website](#scott-county-historical-society-website) | Give visitors one place to find local history and plan a visit | Website project |
 | [Data Structures Study Wiki](#data-structures-study-wiki) | Move from reading examples to writing and testing C++ | Independent study tool |
 | [Footage Scene Organizer](#footage-scene-organizer) | Match unfamiliar clip names to screenplay scenes | Windows prototype |
@@ -29,6 +44,48 @@ I'm Greyson Mullins, a Management Information Systems student at the University 
 
 **What it does.** The wiki connects topics such as recursion, trees, heaps, hashing, and graphs. It includes worked examples, syntax explanations, review questions, and short coding exercises. An online compiler lets me try C++ examples from the browser.
 
+![Study Wiki topic navigation and overview](Study-Wiki-overview.jpg)
+
+<details>
+<summary>See the tree traversal lesson</summary>
+
+![Study Wiki tree traversal comparison and diagram](Study-Wiki-traversals.jpg)
+
+</details>
+
+### Deepwater
+
+**Why I built it.** I wanted C++ practice to feel more organized and inviting. Keeping the header, test program, and assignment milestone visible together made it easier to connect an explanation with the code I was working on.
+
+**What this version shows.** An ocean-themed offline interface with side-by-side code panes, milestone selection, focus controls, and file export. This is a prototype screenshot; it does not demonstrate a connected compiler, GitHub session, or remote server.
+
+![Deepwater offline prototype with C++ header and test program side by side](Deepwater-preview.png)
+
+### Milk Studio
+
+**Why I built it.** With several software and game projects underway, I wanted one place to keep the purpose, next steps, and development context for each project. I also wanted to review an AI task and its estimated cost before running it.
+
+**What these versions show.** The planning-board and project-detail images come from an interactive browser prototype. The agent-queue capture shows a later development interface for reviewing proposed tasks and queued jobs. These are development snapshots from different versions.
+
+![Milk Studio visual planning board prototype](Milk-Studio-board.png)
+
+<details>
+<summary>Project overview and agent queue</summary>
+
+![Milk Studio project overview using SPORED as the example project](Milk-Studio-project.png)
+
+![Milk Studio agent task queue development interface](Milk-Studio-agent-queue.png)
+
+</details>
+
+### Milkdev Dairy Lab
+
+**Why I built it.** I wanted to turn curiosity about material properties into something I could experiment with visually. Changing temperature, fat content, and agitation gives a more tangible way to explore the relationship between inputs and a simulation.
+
+**What this version shows.** A JavaScript browser lab with pouring, mixing, and foam modes, adjustable parameters, a viscosity chart, and sample CSV export. The particle visuals are illustrative; this is an exploratory simulation, not validated engineering CFD.
+
+![Milkdev Dairy Lab pouring simulation and material controls](Dairy-Lab-preview.png)
+
 ## Desktop tools
 
 ### Footage Scene Organizer
@@ -36,6 +93,10 @@ I'm Greyson Mullins, a Management Information Systems student at the University 
 **Why I built it.** Reviewing a folder of footage gets slow when the filenames give little indication of what scene a clip belongs to. I wanted a way to check dialogue against a screenplay and carry approved names over to the matching Google Drive files.
 
 **What it does.** The Windows prototype brings clip review, dialogue matching, and scene naming into one workspace. It can export approved old and new filenames in a CSV. A Drive add-on previews the planned renames and checks file identity before applying them.
+
+![Footage Scene Organizer demo with example clips and review statuses](Footage-Organizer-demo.png)
+
+*Frame from the recorded desktop walkthrough, using example clips with no original footage loaded.*
 
 ### Milkdev Memory
 
@@ -85,6 +146,25 @@ I'm Greyson Mullins, a Management Information Systems student at the University 
 
 [Browse the C++ source](https://github.com/MilkdevTech/ds-portfolio)
 
+## Game development and visual direction
+
+### Under Commission
+
+**Why I built it.** I wanted to explore a multiplayer crafting and trading game where selling a product can change a recurring customer and the surrounding world. The project combines progression, physical workstations, and an atmospheric city.
+
+**What this preview shows.** A material palette for Veyr: weathered masonry, aged metals, roofing, timber, and canvas. This is an asset preview, not an in-game screenshot. The source remains private, and the game is still in development.
+
+![Under Commission material preview for the Veyr environment](Under-Commission-materials.jpg)
+
+### OVERTIME
+
+**Why I built it.** I wanted to develop an industrial dark-fantasy game where machinery, architecture, and the story feel like parts of the same world. A shared visual reference helps keep environments, characters, and interactive props consistent.
+
+**What this preview shows.** An AI-assisted concept-art reference board for Morrow Works. It establishes visual direction; it is not a gameplay capture or a collection of finished production assets.
+
+![OVERTIME Morrow Works concept-art reference board](OVERTIME-concept-art.png)
+
 ---
 
-The three desktop screenshots use fictional data.
+Memory, Vault, and Ledger screenshots use fictional data. Other images are labeled by their source and development stage. Private source repositories are not included in this showcase.
+
