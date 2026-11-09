@@ -1,19 +1,90 @@
 # MilkdevTech Project Showcase
 
-Selected software projects by Greyson Mullins, a Management Information Systems student at the University of Virginia’s College at Wise. Both demos use fictional data.
+I'm Greyson Mullins, a Management Information Systems student at the University of Virginia’s College at Wise. I build tools for jobs I actually run into, from reviewing footage and finding research notes to making community information easier to browse. These projects show how I turn those needs into interfaces, workflows, and working code.
 
-## Milkdev Memory
+## Projects at a glance
 
-A desktop search tool that indexes local documents with SQLite FTS5. Select a result to read the matching passage and see its source file and location.
+| Project | What I needed it for | Stage |
+| --- | --- | --- |
+| [Scott County Historical Society website](#scott-county-historical-society-website) | Give visitors one place to find local history and plan a visit | Website project |
+| [Data Structures Study Wiki](#data-structures-study-wiki) | Move from reading examples to writing and testing C++ | Independent study tool |
+| [Footage Scene Organizer](#footage-scene-organizer) | Match unfamiliar clip names to screenplay scenes | Windows prototype |
+| [Milkdev Memory](#milkdev-memory) | Find a note or passage and trace it back to the source | Desktop prototype |
+| [Milkdev Vault](#milkdev-vault) | See where files will go before reorganizing a folder | Desktop prototype |
+| [Milkdev Ledger](#milkdev-ledger) | Turn transaction exports into readable summaries | Desktop prototype |
+| [MycoVault](#mycovault) | Learn retrieval-augmented generation using fungal research | Academic project |
+| [C++ Data Structures Portfolio](#c-data-structures-portfolio) | Practice implementing and testing the structures I use | Public source |
+
+## Websites and interfaces
+
+### Scott County Historical Society website
+
+**Why I built it.** The society needed a website visitors could use any time to find practical information and explore local history. I wanted someone planning a visit and someone looking for historical material to each have a clear place to start.
+
+**What it does.** The site organizes visitor information, exhibits, events, membership, and research resources into dedicated pages. I used React and Next.js to build the site around reusable components for navigation, page headings, and recurring content.
+
+### Data Structures Study Wiki
+
+**Why I built it.** When I was studying for CSC 2180, I needed to go from reading about a data structure to explaining it and writing the C++ myself. I wanted the explanation and the practice in the same place.
+
+**What it does.** The wiki connects topics such as recursion, trees, heaps, hashing, and graphs. It includes worked examples, syntax explanations, review questions, and short coding exercises. An online compiler lets me try C++ examples from the browser.
+
+## Desktop tools
+
+### Footage Scene Organizer
+
+**Why I built it.** Reviewing a folder of footage gets slow when the filenames give little indication of what scene a clip belongs to. I wanted a way to check dialogue against a screenplay and carry approved names over to the matching Google Drive files.
+
+**What it does.** The Windows prototype brings clip review, dialogue matching, and scene naming into one workspace. It can export approved old and new filenames in a CSV. A Drive add-on previews the planned renames and checks file identity before applying them.
+
+### Milkdev Memory
+
+**Why I built it.** I wanted to find something I remembered reading across local PDFs and notes, then check the original passage in context.
+
+**What it does.** Memory indexes local documents with SQLite FTS5. Search results show the document, the matching passage, and a page or line reference. I can open the original, copy the passage with its citation, or export results.
 
 **Tools** · Python, Tkinter, SQLite FTS5
 
-![Milkdev Memory showing search results for canopy and a source citation for a matching passage.](Milkdev-Memory-demo.png)
+![Milkdev Memory searching fictional research notes for canopy and showing the source citation.](Milkdev-Memory-demo.png)
 
-## Milkdev Vault
+### Milkdev Vault
 
-A desktop file organizer that previews where each file will go before applying a move. A SQLite journal records completed moves so users can undo them later.
+**Why I built it.** I wanted to clean up folders without losing track of where anything went. Seeing the destination before moving a file and having an undo history were central to the design.
+
+**What it does.** Vault previews file moves grouped by type or month. I can review the proposed destinations, apply selected moves, and use the local SQLite journal to undo eligible moves later.
 
 **Tools** · Python, Tkinter, SQLite
 
-![Milkdev Vault previewing six file moves grouped by file type.](Milkdev-Vault-demo.png)
+![Milkdev Vault previewing six fictional file moves grouped by type.](Milkdev-Vault-demo.png)
+
+### Milkdev Ledger
+
+**Why I built it.** I wanted a local way to answer basic questions about a transaction export, such as how spending broke down by category that month. CSV exports can use different columns and sign conventions, so I wanted to see how each file would be interpreted before importing it.
+
+**What it does.** Ledger maps and validates CSV or TSV columns, previews normalized amounts, and summarizes income, expenses, and net totals by month and category. It keeps currencies separate and uses decimal arithmetic for totals.
+
+**Tools** · Python, Tkinter, SQLite
+
+![Milkdev Ledger summarizing fictional transactions by currency, month, and category.](Milkdev-Ledger-demo.png)
+
+## Coursework and research
+
+### MycoVault
+
+**Why I built it.** I chose fungal genomics for my CSC 3950 project because I wanted to learn AI retrieval using research I was genuinely interested in. It gave me a way to connect programming and data with biology and mycology.
+
+**What it does.** The project chunks and indexes scientific papers, uses embeddings to retrieve relevant passages, and tests whether those passages support the generated answers. I compared retrieval approaches and kept a log of cases where the system missed relevant context or produced unsupported claims.
+
+**Tools** · Python, BGE embeddings, ChromaDB
+
+### C++ Data Structures Portfolio
+
+**Why I built it.** I wanted to understand how data structures behave by implementing the operations myself, then using them in small programs where I could see the effects of my design choices.
+
+**What it includes.** The CSC 2180 portfolio covers linked lists, an undo and redo text buffer, binary search trees, a min-heap, a separate-chaining hash table, and a priority task scheduler. I used small test drivers to check behavior as I built each part.
+
+[Browse the C++ source](https://github.com/MilkdevTech/ds-portfolio)
+
+---
+
+The three desktop screenshots use fictional data.
